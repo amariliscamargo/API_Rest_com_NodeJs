@@ -6,7 +6,7 @@ app = express();
 // Rota
 app.get("/", (req,res) => {
  // send() : Envio de dados genérico
-   res.send("Hello World1");
+   res.send("Hello World");
 });
 
 // Definindo porta localhost
