@@ -18,7 +18,9 @@
     "url": "https://github.com/amariliscamargo/API_Rest_com_NodeJs/issues"
   },
   "homepage": "https://github.com/amariliscamargo/API_Rest_com_NodeJs#readme",
-  "dependencies": {},
+  "dependencies": {
+    "mongoose": "^5.5.3"
+  },
   "devDependencies": {
     "express": "^4.16.4",
     "nodemon": "^1.18.11"
