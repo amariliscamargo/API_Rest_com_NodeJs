@@ -1,0 +1,20 @@
+{
+  "name": "api-rest-com-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS: desenvolvendo uma API REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amariliscamargo/API_Rest_com_NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amariliscamargo/API_Rest_com_NodeJs/issues"
+  },
+  "homepage": "https://github.com/amariliscamargo/API_Rest_com_NodeJs#readme"
+}
