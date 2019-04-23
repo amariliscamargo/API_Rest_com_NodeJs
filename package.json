@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/amariliscamargo/API_Rest_com_NodeJs/issues"
   },
-  "homepage": "https://github.com/amariliscamargo/API_Rest_com_NodeJs#readme"
+  "homepage": "https://github.com/amariliscamargo/API_Rest_com_NodeJs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.16.4"
+  }
 }
