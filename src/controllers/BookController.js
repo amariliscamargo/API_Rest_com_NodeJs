@@ -7,7 +7,8 @@ const Book = mongoose.model("Book");
 // Exportando lógicas de negócio (requisições assíncronas) para routes.js
 module.exports = {
     async index(req,res){
-        const books = await Book.find();
+        const { page = 1 } = req.query;
+        const books = await Book.paginate({},{page, limit:10 });
         // Retornando json
         return res.json(books);
     },
